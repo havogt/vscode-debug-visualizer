@@ -550,10 +550,8 @@
     "@hediet/std" "^0.6.0"
     io-ts "^1.8.6"
 
-"@hediet/visualization-bundle@^0.2.3":
+"@hediet/visualization-bundle@file:../visualization/visualization-bundle":
   version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@hediet/visualization-bundle/-/visualization-bundle-0.2.3.tgz#8323706dcaaafc973fdc57da68e6527265e5bfcc"
-  integrity sha512-RpzAST/K5O9FaEaCshHEY7VeGRVlwoTLLcWPkgxzeuZlRr5CNTw8d7Lznh+RaLD1rbz/UEezq2pI3qFYnq/z4w==
   dependencies:
     "@finos/perspective-viewer" "^0.5.2"
     "@finos/perspective-viewer-d3fc" "^0.5.2"
@@ -576,13 +574,12 @@
     vis-network "^8.0.0"
     viz.js "^2.1.2"
 
-"@hediet/visualization-core@^0.2.0":
+"@hediet/visualization-core@file:../visualization/visualization-core":
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@hediet/visualization-core/-/visualization-core-0.2.0.tgz#8fca0044d5d91e8c45354984ae9c131ef7850a76"
-  integrity sha512-r/SYDUipaUSdu1JXL1X0Le5ZkBXVGbKXo6jkX0jFq3NPz/60+B4MnIQnk8D7TCWLXftGFtE6MSFejrE+miup4w==
   dependencies:
     "@hediet/semantic-json" "^0.3.15"
     "@hediet/std" "^0.6.0"
+    mobx "^5.15.4"
     react "^16.12.0"
     react-dom "^16.12.0"
     react-measure "^2.3.0"
@@ -891,10 +888,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.51.tgz#80600857c0a47a8e8bafc2dae6daed6db58e3627"
   integrity sha512-cArrlJp3Yv6IyFT/DYe+rlO8o3SIHraALbBW/+CcCYW/a9QucpLI+n2p4sRxAvl2O35TiecpX2heSZtJjvEO+Q==
 
-"@types/plotly.js@1.44.28":
-  version "1.44.28"
-  resolved "https://registry.yarnpkg.com/@types/plotly.js/-/plotly.js-1.44.28.tgz#e43afd646f2e93f9080b062d3cb7b578ae926f46"
-  integrity sha512-Ajvtn6QHjLMZfRySd0L7f17ONKxiYpZSzW29sx/bU9KL/pzbu+pXdfNika9n+W0G1ScLEJEtI2yBsZXT1UXDKA==
+"@types/plotly.js@^1.54.7":
+  version "1.54.16"
+  resolved "https://registry.yarnpkg.com/@types/plotly.js/-/plotly.js-1.54.16.tgz#7e76e2828ff06f46f8ff9ffd4eb56bf0c4703931"
+  integrity sha512-Kli9UqZwO12cvJ4dT2kGaBtpgq96y8TPsvsB87XTCO+jEMMVy0OZ4WMW+8plS/lBKCtMNtwRNYNlD3+8Stgn2Q==
   dependencies:
     "@types/d3" "^3"
 
@@ -8063,10 +8060,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.1.tgz#76903c3f8c4449bc9ac597acefa24dc5ad4cbea6"
-  integrity sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==
+prettier@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 pretty-error@^2.0.2:
   version "2.1.1"

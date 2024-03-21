@@ -1,6 +1,5 @@
 import numpy as np
 
-
 # put "x" in the Debug Visualizer and use step by step
 # debugging to see the diffrent types of data visualization
 
@@ -22,9 +21,13 @@ x = [1, 2, 3, 4, 5, 6]
 x = np.concatenate([np.arange(i) for i in range(9)])
 x = x.reshape(2, -1)
 
+x = np.fromfunction(lambda i,j: i+j, (50,50))
+
 
 # one dimension
-x = np.arange(100)
+a = np.asarray(range(100))
+x = np.asarray(range(100))
+
 x = np.linspace(-np.pi, np.pi, 100)
 x = np.sin(x)
 
